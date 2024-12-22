@@ -11,6 +11,7 @@ import MapKit
 class LocationsDataService {
     
     static let locations: [Location] = [
+        
         Location(
             name: "Colosseum",
             cityName: "Rome",
@@ -22,6 +23,7 @@ class LocationsDataService {
                 "rome-colosseum-3",
             ],
             link: "https://en.wikipedia.org/wiki/Colosseum"),
+        
         Location(
             name: "Pantheon",
             cityName: "Rome",
@@ -33,6 +35,7 @@ class LocationsDataService {
                 "rome-pantheon-3",
             ],
             link: "https://en.wikipedia.org/wiki/Pantheon,_Rome"),
+        
         Location(
             name: "Trevi Fountain",
             cityName: "Rome",
@@ -44,6 +47,7 @@ class LocationsDataService {
                 "rome-trevifountain-3",
             ],
             link: "https://en.wikipedia.org/wiki/Trevi_Fountain"),
+        
         Location(
             name: "Eiffel Tower",
             cityName: "Paris",
